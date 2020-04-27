@@ -283,7 +283,7 @@
 	}
 
 	.row.\32 00\25 {
-		margin: 0 0 -1px -4em;
+		margin: 0 0 -1px -10em;
 	}
 
 	.row.uniform.\32 00\25 > * {
@@ -379,9 +379,10 @@
 	}
 
 	.\36 u, .\36 u\24 {
-		width: 50%;
+		width: 60%;
 		clear: none;
 		margin-left: 0;
+		margin-top: 5em;
 	}
 
 	.\35 u, .\35 u\24 {
@@ -2566,7 +2567,7 @@
 
 	header h2 + p {
 		font-size: 1.25em;
-		margin-top: -1em;
+		margin-top: 0em;
 		line-height: 1.5em;
 	}
 
@@ -2585,7 +2586,7 @@
 	}
 
 	header.major {
-		margin: 0 0 6em 0;
+		/* margin: 0 0 6em 0; */
 	}
 
 		header.major h2 {
@@ -2721,7 +2722,7 @@
 	}
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		padding: 6em 0 20em 0;
 	}
 
 		.wrapper > .inner {
@@ -2735,7 +2736,7 @@
 
 		.wrapper.style3 {
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+			background-image: url("images/overlay.png"), url("../../images/banner_2.jpg");
 			background-position: center center;
 			background-size: cover;
 		}
@@ -3088,9 +3089,9 @@
 	}
 
 	#banner {
-		padding: 16em 0 13em 0;
+		padding: 16em 0 24em 0;
 		background-attachment: fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner_1.jpg");
 		background-position: center top;
 		background-size: cover;
 		line-height: 1.75;
@@ -3181,7 +3182,7 @@
 /* Footer */
 
 	#footer {
-		padding: 8em 0 6em 0;
+		padding: 3em 0 3em 0;
 		background: #f6f6f6;
 		color: #aaa;
 		text-align: center;
