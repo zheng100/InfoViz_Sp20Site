@@ -182,7 +182,6 @@
 
 					$this.touchPosX = event.originalEvent.touches[0].pageX;
 					$this.touchPosY = event.originalEvent.touches[0].pageY;
-
 				})
 
 				$this.on('touchmove', function(event) {
@@ -246,7 +245,6 @@
 							event.stopPropagation();
 
 						}
-
 				});
 
 			// Event: Prevent certain events inside the panel from bubbling.

@@ -385,6 +385,7 @@
 		margin-top: 5em;
 	}
 
+
 	.\35 u, .\35 u\24 {
 		width: 41.6666666667%;
 		clear: none;
@@ -1995,7 +1996,7 @@
 		}
 
 			.feature-grid .feature .content {
-				width: 60%;
+				width: 100%;
 			}
 
 			.feature-grid .feature .image {
@@ -2010,13 +2011,13 @@
 			.feature-grid .feature:nth-child(odd) .content, .feature-grid .feature:nth-child(odd) .image {
 				float: right;
 				margin-right: 5%;
-				text-align: right;
+				text-align: left;
 			}
 
 			.feature-grid .feature:nth-child(even) .content, .feature-grid .feature:nth-child(even) .image {
 				float: left;
 				margin-left: 5%;
-				text-align: left;
+				text-align: right;
 			}
 
 		@media screen and (max-width: 1280px) {
