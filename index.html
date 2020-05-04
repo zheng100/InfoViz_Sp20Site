@@ -119,7 +119,12 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 					<div class="feature">
 						<div class="content">
 							<div id="newsti"></div>
-							<div id="selector_1"></div>
+							<div class = 'row'>
+								<div id="selector_1"></div>
+								<div id="selector_2"></div> 
+								<div id="selector_3"></div>
+							</div>
+
 							<div id="simu_chart">
 								<svg width="600" height="400" ></svg>
 							</div>
@@ -230,7 +235,9 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
     "viewof newsti": "#newsti",
     "chart": "#growth_chart",
     "viewof infect_prob": "#selector_1",
-		// "stop_prob": "#stop_prob"
+		"viewof stop_prob": "#selector_2",
+		"viewof speed": "#selector_3",
+
   };
 
   function render(_node, value) {
