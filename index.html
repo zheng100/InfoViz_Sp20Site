@@ -113,34 +113,44 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 		<section id="Do" class="wrapper style1">
 			<div class="container">
 				<header class="major">
-					<h2>Why Can COVID - 19 be Dangerous</h2>
-					<p>Maecenas vitae tellus feugiat eleifend</p>
+					<h2>What can we do to stop the spread?</h2>
 				</header>
 				<div class="feature-grid">
 					<div class="feature">
 						<div class="content">
+							<div id="newsti"></div>
+							<div id="selector_1"></div>
+							<div id="simu_chart">
+								<svg width="600" height="400" ></svg>
+							</div>
 						</div>
 					</div>
 					<div class="feature">
 						<div class="content">
 							<header class = 'major'>
-								<h2>Recusandae nemo</h2>
-								<p>Ratione maiores a, commodi</p>
+								<h2>A Simulitis</h2>
+								<p>The Ripple Effect</p>
 							</header>
-							<p>Animi mollitia optio culpa expedita. Dolorem alias minima culpa repellat. Dolores, fuga maiores ut obcaecati blanditiis, at aperiam doloremque.</p>
+							<p>Now we had some understanding of exponential growth of a disease and possible social distancing effect on the spread. Let’s try to visualize this effect. We created a simulitis on the left with a few adjustable sliders and a small section of interactive features to help demonstrate the possible effects on the speed of the spread. Try to utilize these features to slow down the spread and flatten the growth curve. </p>
+							<p>We realize this simulitis is an oversimplified representation of the complexity in real life. A ball bouncing across the screen may not reflect anything close to how we behave in our society. However, we wish the simulitis can be a way to demonstrate a single person’s decisions and actions can have much greater ripple effects in our society during this special time. </p>
+							<p>Parameters you can Adjust include: 1. Probability of infection: Probability a healthy ball will turn into infected ball after contact 2. Percentage of Balls will stay still 3. Speed of the balls Additionally, the interactive rectangle can also be a factor.  Drag the infected ball to start action. </p>
 						</div>
 					</div>
 					<div class="feature">
 						<div class="content">
 							<header class = 'major'>
-								<h2>Recusandae nemo</h2>
-								<p>Ratione maiores a, commodi</p>
+								<h2>A New Curve</h2>
+								<p>Better Self This Time</p>
 							</header>
-							<p>Animi mollitia optio culpa expedita. Dolorem alias minima culpa repellat. Dolores, fuga maiores ut obcaecati blanditiis, at aperiam doloremque.</p>
+							<p>The chart on the right reflects the number of infected balls growth trajectory. The grey line represents growth trend last simulitis while the colored line represents the real time growth of the current simulitis. If your goal is to slow down the spread (presented by a flattened curve) when an infected ball is introduced, how can you achieve this? Try it out. </p>
+							<p> The time unit on the x-axis is currently in 4 seconds interval. When we tried to run the simulitis without interventions, we often observe a quick surge in infected cases (Double or triple) of cases in a short time period while interventions more than often would result in a straightened or flattened line. That extra 4 seconds, 4 hours or 4 days may be exactly what our first responders or medical professionals need to save our loved ones around us.</p>
 						</div>
 					</div>
 					<div class="feature">
 						<div class="content">
+							<div id="growth_chart">
+								<svg width="600" height="450" ></svg>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -211,17 +221,17 @@ Released for free under the Creative Commons Attribution 3.0 license (templated.
 	<script src="assets/js/skel.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
-	<!-- <script type = "module">
+	<script type = "module">
 	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-	import notebook from "https://api.observablehq.com/@zheng100/infovis-final-project-social-distance-simulation-_-v2.js?v=3";
+	import notebook from "https://api.observablehq.com/@zheng100/infovis-final-project-social-distance-simulation-_-v4.js?v=3";
 
   const renders = {
     "viewof c": "#simu_chart",
     "viewof newsti": "#newsti",
     "chart": "#growth_chart",
-    "infect_prob": "#infect_prob",
-		"stop_prob": "#stop_prob"
-  }; -->
+    "viewof infect_prob": "#selector_1",
+		// "stop_prob": "#stop_prob"
+  };
 
   function render(_node, value) {
     if (!(value instanceof Element)) {
