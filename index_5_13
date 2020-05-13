@@ -1,0 +1,278 @@
+<!DOCTYPE HTML>
+<!--
+Spatial by TEMPLATED
+templated.co @templatedco
+Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<head>
+<title>InfoVis 2020 Final Project - Social Distancing</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="landing">
+
+<!-- Header -->
+	<header id="header" class="alt">
+		<h1><strong><a href="index.html">InfoVis 2020 Final Project</a></strong></h1>
+		<nav id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#Introduction">Introduction</a></li>
+				<li><a href="#WhyDangerous">Effectiveness</a></li>
+				<li><a href="#Do">What to Do</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+
+<!-- Banner -->
+	<section id="banner">
+		<h2>Why Social Distance?</h2>
+		<p> Learn, Realize and Experiment Exponential Growth <br /> </p>
+		<ul class="actions">
+			<li><a href="#Introduction" class="button special big">Get Started</a></li>
+		</ul>
+	</section>
+
+	<!-- One -->
+		<section id="Introduction" class="wrapper style1">
+			<div class="container">
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="content">
+									<header class = 'major'>
+										<h2>Introduction</h2>
+										<p>What is COVID-19?</p>
+									</header>
+									<p>Covid-19 is a novel coronavirus, which means that it is a strain of coronavirus not previously identified. As noted by the CDC it is important to recognize that: “the virus causing coronavirus disease 2019 (COVID-19), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold”.</p>
+									<header class="major">
+										<p>What is the big deal?</p>
+									</header>
+									<p>New strain of coronavirus. Since Covid-19 is new, there is no widespread immunity in the population, which makes communities more susceptible to the virus.Fast spreading. The virus is fast spreading and is thought to be transferred mainly person to person via droplets that result from coughing or sneezing.</p>
+									<header class="major">
+										<p>Understanding Exponential Growth</p>
+									</header>
+										<p>Because COVID-19 spreads so quickly, the period of fastest growth can be modeled using an exponential curve. This essentially means that the total number of confirmed cases increases by a factor every few days. Looking at the initial 1 month period when confirmed Covid-19 cases were rapidly growing we can see that the total number of cases quadrupled around every 5 days, starting from less than 100 confirmed cases at the start of March and rising to around 200,000 by April.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class='tableauPlaceholder' id='viz1588830104971' style='position: relative; float:right'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;24&#47;247_final_intro_Covid19_Growth_15888285220060&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='247_final_intro_Covid19_Growth_15888285220060&#47;Dashboard2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;24&#47;247_final_intro_Covid19_Growth_15888285220060&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1588830104971');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='700px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='700px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+							</div>
+						</div>
+						<div class="feature-grid">
+							<div class="feature">
+								<div class="content">
+										<p>To understand just how quickly Covid-19 has spreading, we can compare the number of new deaths caused by the virus each day to the average number of deaths per day due to pneumonia and influenza during the 2017-2018 season. Over the course of a month the number of deaths per day due to Covid-19 quadrupled roughly once a week, growing from less than 100 to over 2000. Meanwhile during the one month period when pneumonia and influenza deaths were growing most for the 2017-2018 season, the average deaths per day rose from around 200 to around 450. For comparison, while it took around a month for the number of pneumonia and influenza related deaths per day to double, it took less than a week for Covid-19 related deaths per day to grow that amount.</p>
+								</div>
+							</div>
+							<div class="feature">
+								<div class='tableauPlaceholder' id='viz1588830144107' style='position: relative; float:right'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;24&#47;247_final_intro_Covid19_Growth_15888285220060&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='247_final_intro_Covid19_Growth_15888285220060&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;24&#47;247_final_intro_Covid19_Growth_15888285220060&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1588830144107');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='727px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='727px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+
+	<!-- Two -->
+		<section id="WhyDangerous" class="wrapper style2 special">
+			<div class="container">
+				<header class="major">
+					<h2>Slow the spread of Covid-19</h2>
+				</header>
+				<div class="feature-grid">
+					<!-- Sec2 1st chart -->
+					<div class="feature">
+						<!-- <header class="major">
+							<h2 style= "font-size:18px;">Explore by yourself to see how implementation time makes a difference!</h2>
+						</header> -->
+						<!-- <p style="font-size:22px;"><b>Explore by yourself to see how implementation time makes a difference! </b></p> -->
+							<p>Three default highlighted countries below show you examples of             <b style="color:#b79842";>early</b>,
+							 <b style="color:#d77293">average</b>, and <b style="color:#429894">late</b> adapters.</p>
+						<div class="content">
+							<div class='tableauPlaceholder' id='viz1588799502009' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid-worldwide_v3&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Covid-worldwide_v3&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Co&#47;Covid-worldwide_v3&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1588799502009');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='640px';vizElement.style.height='550px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+						</div>
+						<p><sub>Disclaimer: Data as of April 13th, 2020. China and the U.S. are excluded in this chart because of regional and state independent decisions on social distancing measurement implementations.</sub></p>
+					</div>
+					<div class="feature">
+						<div class="content">
+							<header class = 'major'>
+								<h2>Should you wait? </h2>
+								<p>Timely implementation matter?</p>
+							</header>
+							<p>Social distancing, also called “physical distancing,” means keeping space between yourself and other people outside of your home.
+							<b>Left chart includes new confirmed cases in 15 heavily affected countries and the average days before its national government issued a shelter-in-place order </b> (<b style="color:#f32853";>average about 50 days</b>).
+							</p>
+							<p><b style="font-size:22px;">CLICK</b> on a specific country to compare its trends before/after the implementaion date.
+						 Use CTRL + Mouse click to highlight multiple countries or hover the to learn more details on the readings.</p>
+							<header class = 'major'>
+								<p>Delayed Effect</p>
+							</header>
+							<p><b> Newly confirmed cases in most countries only began to flatten 2-3 weeks after social distancing measurements are implemented.</b> For instance, in the case of Spain, it took 15 days before new cases reached its growth peak and started to stabilize. </p>
+							<header class = 'major'>
+								<p>Reactive or Preactive</p>
+							</header>
+							<p>Countries such as Iran, Brazil or Italy with faster social distancing policies response (below average waited time) normally associate with a faster-growing and steeper exponential curve than countries such as Japan or Singapore. <b>This may be an indication that social distancing policies are more of a reactive measurement than a proactive preventative decision.</b></p>
+
+
+						</div>
+					</div>
+					<div class="feature">
+						<div class="content">
+							<header class = 'major'>
+								<h2>Autonomy</h2>
+								<p>State Decisions</p>
+							</header>
+							<p>The chart on the right reflects different state implementations of social distancing policies in terms of early, average, and late adapters. The vertical lines are social distancing implementation dates implemented at the state level. Additionally, the charts are also arranged by state population density. </p>
+							<p><b>Different social distancing policies in the U.S. are not dramatically apart with the earliest in late March and latest about two weeks after. With given data, the effect of these measurements begins to show for the early adapters but may take longer for the late. It seems exponential growths in most states have been bent after social distancing policies are put into place.</b></p>
+							<p>Although some of the effect may be less prevalent in less populated states such as New Mexico, where new cases continue to grow. The most positive development seems to be in Washington State with newly confirmed cases clearly dropping compared to prior levels.</p>
+						</div>
+					</div>
+						<!-- Sec2 2nd chart -->
+					<div class="feature">
+						<div class="content">
+							<!-- <div class='tableauPlaceholder' id='viz1588802308992' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;state_parallel_comparison_15888021926980&#47;Dashboard_2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='state_parallel_comparison_15888021926980&#47;Dashboard_2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;state_parallel_comparison_15888021926980&#47;Dashboard_2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1588802308992');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='600px';vizElement.style.height='550px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='577px';} else { vizElement.style.width='100%';vizElement.style.height='1677px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script> -->
+							<div class='tableauPlaceholder' id='viz1589325303054' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;state_parallel_comparison_ready&#47;Dashboard_2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='state_parallel_comparison_ready&#47;Dashboard_2' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;st&#47;state_parallel_comparison_ready&#47;Dashboard_2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1589325303054');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) {
+							vizElement.style.width='600px';vizElement.style.height='577px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='600px';vizElement.style.height='577px';} else { vizElement.style.width='100%';vizElement.style.height='1677px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	<!-- Three -->
+		<section id="Do" class="wrapper style1">
+			<div class="container">
+				<header class="major">
+					<h2>What can we do to stop the spread?</h2>
+				</header>
+				<div class="feature-grid">
+					<!-- Sec3 1st visual -->
+					<div class="feature">
+						<div class="content">
+							<div id="newsti"></div>
+							<div class = 'row'>
+								<div id="selector_1"></div>
+								<div id="selector_2"></div>
+								<div id="selector_3"></div>
+							</div>
+
+							<div id="simu_chart">
+								<svg width="600" height="400" ></svg>
+							</div>
+						</div>
+					</div>
+					<div class="feature">
+						<div class="content">
+							<header class = 'major'>
+								<h2>A Simulitis</h2>
+								<p>The Ripple Effect</p>
+							</header>
+							<p>Now we had some understanding of exponential growth of a disease and possible social distancing effect on the spread. Let’s try to visualize this effect. We created a simulitis on the left with a few adjustable sliders and a small section of interactive features to help demonstrate the possible effects on the speed of the spread. Try to utilize these features to slow down the spread and flatten the growth curve. </p>
+							<p>We realize this simulitis is an oversimplified representation of the complexity in real life. A ball bouncing across the screen may not reflect anything close to how we behave in our society. However, we wish the simulitis can be a way to demonstrate a single person’s decisions and actions can have much greater ripple effects in our society during this special time. </p>
+							<p>Parameters you can Adjust include: 1. Probability of infection: Probability a healthy ball will turn into infected ball after contact 2. Percentage of Balls will stay still 3. Speed of the balls Additionally, the interactive rectangle can also be a factor.  Drag the infected ball to start action. Infection probability and stop ball probabilities are in percentage terms while speed of ball is arbitrary. </p>
+						</div>
+					</div>
+					<div class="feature">
+						<div class="content">
+							<header class = 'major'>
+								<h2>A New Curve</h2>
+								<p>Better Self This Time</p>
+							</header>
+							<p>The chart on the right reflects the number of infected balls growth trajectory. The grey line represents growth trend last simulitis while the colored line represents the real time growth of the current simulitis. If your goal is to slow down the spread (presented by a flattened curve) when an infected ball is introduced, how can you achieve this? Try it out. </p>
+							<p> The time unit on the x-axis is currently in 4 seconds interval. When we tried to run the simulitis without interventions, we often observe a quick surge in infected cases (Double or triple) of cases in a short time period while interventions more than often would result in a straightened or flattened line. That extra 4 seconds, 4 hours or 4 days may be exactly what our first responders or medical professionals need to save our loved ones around us.</p>
+						</div>
+					</div>
+					<!-- Sec3 2nd visual -->
+					<div class="feature">
+						<div class="content">
+							<div id="growth_chart">
+								<svg width="600" height="450" ></svg>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+
+		</section>
+
+	<!-- Four -->
+		<section id="Conclusion" class="wrapper style3 special">
+			<div class="container">
+				<header class="major">
+					<h2>Conclusion</h2>
+					<p>Covid-19 has brought unprecedented challenges for individuals, families, and countries across the world. The exponential growth of this novel coronavirus has left people and policy makers with uncertainty about how long this pandemic will last and how many more lives will be impacted.
+	 Without available vaccines and effective treatments, orders on social distancing are enacted by different countries’ national and local governments to lower interpersonal contact rate. For many of the heavily affected countries, social distancing has achieved a pronounced effect in containing the viral spread, usually within 2 weeks after implementation. Although it doesn’t come without costs, policy makers and each individual should consider practicing social distancing in a timely manner for the safety of the country, the vulnerable people nearby or yourself.</p>
+				</header>
+				<ul class="actions">
+					<li><a href="#" class="button special big">I Support Social Distancing!</a></li>
+				</ul>
+			</div>
+		</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="container">
+			<h2>About Us</h2>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/hongyang-bobby-zheng" class="icon fa-linkedin"></a>  Hongyang(Bobby) Zheng  </li>
+				<li><a href="https://www.linkedin.com/in/thyne-boonmark/" class="icon fa-linkedin"></a> Thyne Boonmark  </li>
+				<li><a href="https://www.linkedin.com/in/wenqi-luo-24463311b/" class="icon fa-linkedin"></a> Wenqi Luo  </li>
+			</ul>
+		</div>
+	</footer>
+
+<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script type = "module">
+	import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+	import notebook from "https://api.observablehq.com/@zheng100/infovis-final-project-social-distance-simulation-_v6.js?v=3";
+
+  const renders = {
+    "viewof c": "#simu_chart",
+    "viewof newsti": "#newsti",
+    "chart": "#growth_chart",
+    "viewof infect_prob": "#selector_1",
+		"viewof stop_prob": "#selector_2",
+		"viewof speed": "#selector_3",
+
+  };
+
+  function render(_node, value) {
+    if (!(value instanceof Element)) {
+      const el = document.createElement("span");
+      el.innerHTML = value;
+      value = el;
+    }
+    if (_node.firstChild !== value) {
+      if (_node.firstChild) {
+        while (_node.lastChild !== _node.firstChild) _node.removeChild(_node.lastChild);
+        _node.replaceChild(value, _node.firstChild);
+      } else {
+        _node.appendChild(value);
+      }
+    }
+  }
+  const runtime = new Runtime();
+  const main = runtime.module(notebook, name => {
+    const selector = renders[name];
+    if (selector) {
+      return {fulfilled: (value) => render(document.querySelector(selector), value)}
+    } else {
+      return true;
+    }
+  });
+
+
+	</script>
+
+</body>
+</html>
