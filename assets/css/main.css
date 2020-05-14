@@ -2017,7 +2017,7 @@
 			.feature-grid .feature:nth-child(even) .content, .feature-grid .feature:nth-child(even) .image {
 				float: left;
 				margin-left: 5%;
-				text-align: right;
+				text-align: left;
 			}
 
 		@media screen and (max-width: 1280px) {
